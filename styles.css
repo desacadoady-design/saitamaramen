@@ -1,0 +1,548 @@
+body {
+    margin: 0;
+    background-color: #efe3c8;
+    color: #30231b;
+    font-family: "Bahnschrift SemiLight", Bahnschrift, Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.with-background {
+    background-image: url("bg.jpg");
+}
+
+header,
+nav,
+footer {
+    background-color: #30231b;
+    color: #f4e9d2;
+    text-align: center;
+}
+
+footer {
+    background-color: hsla(24, 28%, 15%, 0.75);
+}
+
+nav {
+    padding: 15px;
+}
+
+.nav-link {
+    color: #f4e9d2;
+    margin: 15px;
+    text-decoration: none;
+}
+
+main {
+    min-height: 300px;
+    padding: 15px;
+}
+
+section {
+    background-color: #f8f1e2;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 8px 12px #6b5a4c;
+}
+
+.profile {
+    background-color: #f8f1e2;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.story-card {
+        transition: border 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+margin: 20px;
+    padding: 20px;
+    border: 2px solid #8f3025;
+    border-radius: 12px;
+    background-size: 100% 100%;
+}
+
+.mission-card {
+    background-image: url("mission.jpg");
+}
+
+.vision-card {
+    background-image: url("vision.jpg");
+}
+
+.story-image-card {
+    background-image: url("story.png");
+}
+
+.story-text {
+    background-color: hsla(36, 55%, 95%, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.story-card:hover {
+    border: 5px groove #8f3025;
+}
+
+.story-text p {
+    text-align: justify;
+}
+
+.story-text {
+    background-color: hsla(36, 55%, 95%, 1);
+}
+
+h1 {
+    margin: 0;
+    font-family: "Bowlby One SC", "Agency FB", sans-serif;
+    color: #f4e9d2;
+}
+
+h2,
+h3 {
+    font-family: "Agency FB", "Bahnschrift SemiLight", Bahnschrift, sans-serif;
+    color: #8f3025;
+}
+
+.banner,
+.reservation-header {
+    width: 100%;
+}
+
+.header-rule {
+    margin: 0;
+    border: 0;
+    background-color: #8f3025;
+    height: 4px;
+}
+
+.hero-photo {
+    width: 650px;
+    border-radius: 12px;
+}
+
+.section-photo,
+.menu-photo {
+    width: 360px;
+    border-radius: 12px;
+}
+
+.team-photo {
+    width: 500px;
+}
+
+.reservation-banner {
+    width: 800px;
+}
+
+#price-heading {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+caption {
+    padding: 10px;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #30231b;
+	
+}
+
+.table-heading {
+    background-color: #30231b;
+    color: #f4e9d2;
+}
+
+tr:nth-child(even) {
+    background-color: #efe3c8;
+}
+
+.menu-item {
+    border: 2px solid #8f3025;
+    border-radius: 12px;
+}
+
+.price-old {
+    color: #6b5a4c;
+}
+
+.price-new {
+    color: #8f3025;
+}
+
+.menu-item-price {
+    font-size: 20px;
+}
+
+#products-heading,
+#welcome-heading {
+    font-size: 32px;
+}
+
+.button,
+button {
+    background-color: #8f3025;
+    color: #fff8e9;
+    padding: 12px;
+    text-decoration: none;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+mark {
+    background-color: #d8c58e;
+    color: #30231b;
+}
+
+ul {
+    font-size: 20px;
+    text-align: justify;
+    list-style-type: square;
+    width: 50%;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.intro {
+    color: orange;
+}
+fieldset {
+    border: 2px solid #8f3025;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+video {
+    width: 300px;
+}
+
+audio {
+    width: 420px;
+}
+
+.social-links {
+    margin: 12px;
+}
+
+.social-icon,
+.home-social-icon {
+    width: 40px;
+    margin: 8px;
+}
+
+
+a:hover,
+button:hover {
+    color: #30231b;
+    background-color: #d8c58e;
+    background-image: linear-gradient(to right, #b76e3c, #f4d06f, #b8860b);
+}
+
+
+img:hover {
+    border: 3px solid #b8860b;
+}
+
+
+#about p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+
+#about p:last-child {
+    text-align: center;
+}
+
+
+nav a:hover {
+    color: #30231b;
+    background-image: linear-gradient(to right, #5a321f, #c89b63, #d8a928);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Added motion effects from the supplied CSS lessons */
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.button,
+button {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.menu-item,
+.profile {
+    transition: transform 0.35s ease;
+}
+
+.menu-item:hover,
+.profile:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 5px 8px 12px #6b5a4c;
+}
+
+
+/* Additional subtle photo hover motion */
+.hero-photo,
+.section-photo,
+.menu-photo,
+.team-photo {
+    transition: transform 0.3s ease;
+}
+
+.hero-photo:hover,
+.section-photo:hover,
+.menu-photo:hover,
+.team-photo:hover {
+    transform: scale(1.03);
+}
+/* Contact Us page styles */
+.contact-intro,
+.contact-details,
+.contact-form-section,
+.contact-audio,
+.reservation-callout {
+    border: 2px solid #8f3025;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-intro,
+.contact-details,
+.contact-audio {
+    background-color: #30231b;
+    border-color: #d8c58e;
+}
+
+.contact-form-section {
+    background-color: #f8f1e2;
+    border-color: #8f3025;
+}
+
+.reservation-callout {
+    background-color: #8f3025;
+    border-color: #d8c58e;
+}
+
+.contact-heading {
+    color: #8f3025;
+    font-size: 30px;
+}
+
+.contact-heading-light {
+    color: #d8c58e;
+}
+
+.contact-intro-text,
+.contact-detail,
+.contact-light-text {
+    color: #f4e9d2;
+    font-size: 20px;
+}
+
+.photo-credit {
+    color: #f4e9d2;
+    font-size: 14px;
+}
+
+.photo-credit-link {
+    color: #d8c58e;
+}
+
+.contact-photo {
+    width: 500px;
+    border: 2px solid #d8c58e;
+    transition: transform 0.3s ease;
+}
+
+.contact-photo:hover {
+    transform: scale(1.03);
+}
+
+.contact-form {
+    background-color: #efe3c8;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contact-submit {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-submit:hover {
+    background-color: #30231b;
+    background-image: none;
+    color: #f4e9d2;
+}
+/* Shared button hover effects for all pages */
+.button,
+button {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 6px #6b5a4c;
+}
+
+.button:hover,
+button:hover {
+    color: #30231b;
+    background-color: #d8c58e;
+    background-image: linear-gradient(to right, #b76e3c, #f4d06f, #b8860b);
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.contact-submit {
+    transition: all 0.3s ease;
+}
+/* Reservations page palette to match Contact Us */
+.reservation-audio {
+    background-color: #30231b;
+    border: 2px solid #d8c58e;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.reservation-form-section {
+    background-color: #f8f1e2;
+    border: 2px solid #8f3025;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.reservation-heading {
+    color: #8f3025;
+    font-size: 30px;
+}
+
+.reservation-heading-light {
+    color: #d8c58e;
+}
+
+.reservation-intro {
+    color: #30231b;
+    font-size: 20px;
+}
+
+.reservation-form-section form {
+    background-color: #efe3c8;
+    margin: 20px;
+    padding: 20px;
+}
+
+.reservation-form-section fieldset {
+    border:  3px solid #8f3025;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    color: #30231b;
+}
+
+.reservation-form-section label,
+.reservation-form-section legend {
+    color: #30231b;
+}
+
+.reservation-submit {
+    background-color: #8f3025;
+    color: #fff8e9;
+    transition: all 0.3s ease;
+}
+
+.reservation-submit:hover {
+    background-color: #d8c58e;
+    background-image: linear-gradient(to right, #b76e3c, #f4d06f, #b8860b);
+    color: #30231b;
+}
+/* Lesson-based fade-in for page content containers */
+div,
+section {
+    animation: contentFadeIn 0.8s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes contentFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Page-specific Japanese-inspired entrance motion, using lesson effects */
+.theme-home {
+    animation: homeScroll 0.8s ease 1;
+    animation-fill-mode: both;
+}
+
+@keyframes homeScroll {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.theme-products {
+    animation: menuScale 0.8s ease 1;
+    animation-fill-mode: both;
+}
+
+@keyframes menuScale {
+    from { opacity: 0; transform: scale(0.97); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.theme-about {
+    animation: storyTurn 0.8s ease 1;
+    animation-fill-mode: both;
+}
+
+@keyframes storyTurn {
+    from { opacity: 0; transform: rotate(-1deg); }
+    to { opacity: 1; transform: rotate(0deg); }
+}
+
+.theme-contact {
+    animation: contactSlide 0.8s ease 1;
+    animation-fill-mode: both;
+}
+
+@keyframes contactSlide {
+    from { opacity: 0; transform: translateX(-18px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.theme-reservation {
+    animation: reservationSlide 0.8s ease 1;
+    animation-fill-mode: both;
+}
+
+@keyframes reservationSlide {
+    from { opacity: 0; transform: translateX(18px); }
+    to { opacity: 1; transform: translateX(0); }
+}

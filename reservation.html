@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations | Saitama’s One-Punch Ramen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="with-background">
+    <header id="top" class="theme-reservation">
+        <h1><img class="reservation-header" src="reservation-header.png" alt="Reservations. Reserve. Relax. Enjoy."></h1>
+        <nav>
+            <a class="nav-link" href="home.html">Home</a> |
+            <a class="nav-link" href="products.html">Products</a> |
+            <a class="nav-link" href="about.html">About Us</a> |
+            <a class="nav-link" href="contactus.html">Contact Us</a> |
+            <a class="nav-link" href="reservation.html"><u>Reservations</u></a>
+        </nav>
+        <hr class="header-rule">
+    </header>
+<section class="reservation-audio">
+            <h2 class="reservation-heading reservation-heading-light" id="audio-heading">THE KITCHEN SOUNDTRACK</h2>
+            <p class="reservation-heading-light">Enjoy a little ramen-shop atmosphere while you browse:</p>
+            <audio controls autoplay>
+                <source src="conres.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+    <main id="reservation-page" class="reservation-page theme-reservation">
+        <section id="reservation" class="reservation-form-section">
+            <h2 class="reservation-heading">Reserve a Table</h2>
+            <p class="reservation-intro">We are glad to reserve you a table!</p>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="Name"><br>
+                <label for="email">E-Mail</label><br>
+                <input type="email" id="email" name="E_mail"><br>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date"><br>
+                <label for="time">Time:</label><br>
+                <input type="time" id="time" name="time"><br>
+                <label for="attendance">Attendance:</label><br>
+                <input type="number" id="attendance" name="attendance"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="5" cols="50" name="Message" placeholder="Anything you want to request.."></textarea><br>
+                <button class="reservation-submit" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="banner" src="footer.png" alt="© 2026 Saitama’s One-Punch Ramen. Call 09678760967. Open Monday to Saturday, 9am to 5pm. One Punch, One Bowl.">
+        <p class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61596126935821" target="_blank"><img class="social-icon" src="fb.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/sopramenn/" target="_blank"><img class="social-icon" src="ig.png" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@saitamasonepunchramen?_r=1&amp;_t=ZS-9BAO5ym39U5" target="_blank"><img class="social-icon" src="tt.png" alt="TikTok"></a>
+        </p>
+    </footer>
+</body>
+</html>
